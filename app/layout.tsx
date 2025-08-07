@@ -27,7 +27,18 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header>
+          <div className="bg-amber-300 w-full h-[60px]">
+            <h1 className="p-4.5 font-extrabold">skill mentorx</h1>
+          </div>
+        </header>
         {children}
+
+        <footer>
+          <div className="bg-black w-full h-50 flex align-bottom">
+
+          </div>
+        </footer>
       </body>
     </html>
   );

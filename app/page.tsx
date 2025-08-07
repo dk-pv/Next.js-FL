@@ -1,9 +1,11 @@
-export default function Home() {
+import React from 'react'
+
+const page = () => {
   return (
-    <>
-    <h1>
-      hello world
-    </h1>
-    </>
-  );
+    <div>
+      <h1>hello world</h1>
+    </div>
+  )
 }
+
+export default page
